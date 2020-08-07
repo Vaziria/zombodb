@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/buildpack-deps:stretch
     environment:
-      IMAGE_NAME: kampretcode/grab_categ
+      IMAGE_NAME: kampretcode/zombodb
     working_directory: ~/app
     steps:
       - checkout
